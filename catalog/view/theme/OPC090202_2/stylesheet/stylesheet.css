@@ -343,7 +343,7 @@ header{
 	padding-left:23px;
 }
 
-.headertopright .text2 a{color:#2d2d2d; font-size: 14px; letter-spacing:0.5px; font-weight:500; }
+.headertopright .text2 a{color:#2d2d2d; font-size: 14px; letter-spacing:0.5px; font-weight:500; float: left; }
 
 #logo {
 	
@@ -4682,11 +4682,12 @@ color:#2196f3;
 	font-weight:600;
 	width:100%;
 }
-.headertopright .text2-dec {float: left;
+.headertopright .text2-dec {
+    float: left;
     font-weight:700;
     margin-bottom: 2px; 
 	font-size: 14px;} 
-	
+
 .headertopright a:hover > span {
     color: #2196f3;
 }

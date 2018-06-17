@@ -104,7 +104,13 @@ class ControllerCommonHeader extends Controller {
 		$data['manufacturer'] = $this->url->link('product/manufacturer');
 		
 		
-		
+		$this->load->model('catalog/headermenu');
+		$menus = $this->model_catalog_headermenu->getMenus();
+		$data['headermenus'] = array();
+		foreach ($menus as $menu) {
+			$data['headermenus'][] = array('name' => $menu['name'], 'link' => $menu['link'] );
+		}
+
 		//Blog 
 		$type="module";
 				

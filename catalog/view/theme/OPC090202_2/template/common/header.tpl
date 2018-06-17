@@ -305,7 +305,7 @@
 	  <div class="head-right-bottom">
       <div class="headertopright">
 	   	<div class="text2">
-		<div class="text2-dec"><?php echo $text_callus; ?></div> - 
+		<div class="text2-dec"><?php echo $text_callus; ?></div> <br> 
 		<a href="<?php echo $contact; ?>">
 		<span class="hidden-xs hidden-sm hidden-md"><?php echo $telephone; ?></span>
 		</a>

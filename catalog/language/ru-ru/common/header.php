@@ -17,5 +17,5 @@ $_['text_all']           = 'Показать все';
 $_['text_page']          = 'страница';
 $_['text_blog']          = 'Блог';
 $_['heading_title']      = 'Категории';
-$_['text_callus']        = 'Бесплатный Звонок';
+$_['text_callus']        = 'Наш номер';
 $_['text_manufacturer'] = 'Бренды';
