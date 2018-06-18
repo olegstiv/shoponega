@@ -179,7 +179,7 @@
     </li>
     <?php } ?>
         <?php
-        if (isset($headermenus)) {
+        if ($headermenus) {
             foreach ($headermenus as $headmenu) { ?>
                 <li class="static_right"><a href="<?php echo $headmenu['link']; ?>"><?php echo $headmenu['name']; ?></a>
                 </li>
@@ -263,7 +263,7 @@
 <div class="head-right-top">
 		<ul class="static_links">
             <?php
-            if (isset($headermenus)) {
+            if ($headermenus) {
                 foreach ($headermenus as $headmenu) { ?>
                     <li class="static_right"><a href="<?php echo $headmenu['link']; ?>"><?php echo $headmenu['name']; ?></a>
                     </li>
